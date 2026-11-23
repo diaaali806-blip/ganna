@@ -23,10 +23,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Prepare website files
+      - name: Prepare website and voice note
         run: |
           mkdir -p site
-          unzip -o jannah_site_with_audio.zip -d site
+          cp index.html site/index.html
+          unzip -o jannah_site_with_audio.zip jannah_voice.mpeg -d site
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Upload site artifact
