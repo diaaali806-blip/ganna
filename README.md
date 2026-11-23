@@ -1,9 +1,12 @@
 # Jannah Love Letter 💗
 
-A romantic Arabic letter website dedicated to Jannah.
+Arabic personal letter website for Jannah.
 
-- `jannah_site_with_audio.zip`: Complete compressed website package.
-- `index.html`: Website page.
-- `jannah_voice.mpeg`: Voice note used by the website.
+## Files
+- `index.html` — website source.
 
-To run locally, keep `index.html` and `jannah_voice.mpeg` in the same folder and open `index.html` in a browser.
+## Voice note
+The page expects a file named `jannah_voice.mpeg` in the repository root. Add the original audio file with that exact name to enable the audio player.
+
+## Run locally
+Open `index.html` in a browser after placing `jannah_voice.mpeg` beside it.
